@@ -1,75 +1,75 @@
-# Awesome Linux Software
+# Perangkat Lunak Linux Yang Mengagumkan
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://awesome.re/)
 
 ![Tux](img/tux.png)
 
 
-🐧 This repo is a collection of **AWESOME** Linux applications and tools for **any users/developers**.
+🐧 Repo ini merupakan koleksi dari berbagai perangkat lunak pada linux yang **MENGAGUMKAN** dan alat untuk **berbagai macam pengguna/pengembang**.
 <br>
-🐧 Feel free to **contribute** / **star** / **fork** / **pull request** . Any **recommendations** and **suggestions** are welcomed.
+🐧 Kami menerima segala bentuk **kontribusi** / **star** / **fork** / **pull request** . Maupun segala bentuk **rekomendasi** dan **saran**.
 
-*Update: This repo has been published on [Gitbook](https://voluong.gitbooks.io/awesome-linux-software/content/). You can share this link to new users since they may find it friendlier to read than github. Download as a pdf [here](https://goo.gl/xhiKla).*
+*Pembaruan: Repositori ini telah diterbitkan pada [Gitbook](https://voluong.gitbooks.io/awesome-linux-software/content/). Anda bisa membagikan pranala ini untuk pengguna baru, yang mana susunan pada pranala tersebut lebih mudah dibaca dibandingkan pada laman github. Unduh dengan bentuk dokumen portable [disini](https://goo.gl/xhiKla).*
 
-**Acknowledgement:** *Everything written below is from my own experience in college and after reading various materials. I am neither a professional nor expert, but a student who has great passion. Anyone can open a discussion in the issue section, or a pull request in case something should be modified or added. If you consider my work valuable, a [donation](#donation) is much appreciated.*
+**Pernyataan:** *Segala hal yang tertulis pada dokumen ini berasal dari pengalaman pribadi dalam masa perkuliahan dan setelah membaca bermacam-macam materi. Saya merupakan bukan seorang professional ataupun ahli, melainkan seorang murid yang memiliki gairah yang tinggi untuk belajar. Setiap orang bisa membuka diskusi lewat sesi _issue_, maupun _pull request_ apabila ada terdapat hal yang harus diubah maupun ditambahkan. Jika Anda berpikir kegiatan kami ini bermanfaat, Sebuah [donasi](#donation) akan sangat kami hargai.*
 
-Chinese version : [here](https://github.com/LewisVo/Awesome-Linux-Software/blob/master/README_zh-CN.md) or [here](https://github.com/alim0x/Awesome-Linux-Software-zh_CN) or [here](https://github.com/0xE8551CCB/awesome-linux-software-cn).  
-Brazilian Portugese version : [here](https://github.com/LewisVo/Awesome-Linux-Software/blob/master/README_pt-BR.md).
-## Table of Contents
+Versi bahasa China : [disini](https://github.com/LewisVo/Awesome-Linux-Software/blob/master/README_zh-CN.md) atau [disini](https://github.com/alim0x/Awesome-Linux-Software-zh_CN) atau [disini](https://github.com/0xE8551CCB/awesome-linux-software-cn).  
+Versi bahasa Brazilian Portugese: [disini](https://github.com/LewisVo/Awesome-Linux-Software/blob/master/README_pt-BR.md).
+## Daftar Isi
 
-- [Applications](#applications)
+- [Aplikasi](#applications)
     - [Audio](#audio)
-    - [Chat Clients](#chat-clients)
-    - [Data Backup and Recovery](#data-backup-and-recovery)
-    - [Desktop Customization](#desktop-customization)
-    - [Development](#development)
-    - [E-Book Utilities](#e-book-utilities)
-    - [Editors](#editors)
-    - [Education](#education)
-    - [Email Utilities](#email)
-    - [File Manager](#file-manager)
-    - [Games](#games)
-    - [Graphics](#graphics)
+    - [Layanan Obrol](#chat-clients)
+    - [Pencadangan dan Pemulihan Data](#data-backup-and-recovery)
+    - [kustomisasi desktop](#desktop-customization)
+    - [Pengembangan](#development)
+    - [Utilitas Buku-el](#e-book-utilities)
+    - [Pengubah](#editors)
+    - [Pendidikan](#education)
+    - [Utilitas Surat-el](#email)
+    - [Manajemen Berkas](#file-manager)
+    - [Permainan](#games)
+    - [Grafis](#graphics)
     - [Internet](#internet)
-    - [Office](#office)
-    - [Productivity](#productivity)
+    - [Perkantoran](#office)
+    - [Produktifitas](#productivity)
     - [Proxy](#proxy)
-    - [Security](#security)
-    - [Sharing Files](#sharing-files)
+    - [Keamanan](#security)
+    - [Berbagi Berkas](#sharing-files)
     - [Terminal](#terminal)
-    - [Utilities](#utilities)
+    - [Utilitas](#utilities)
     - [Video](#video)
-    - [Others](#others)
-- [Command Line Utilities](#command-line-utilities)
-- [Desktop Environments](#desktop-environments)
-- [Display Managers](#display-manager)
+    - [Lainnya](#others)
+- [Utilitas Perintah Terminal](#command-line-utilities)
+- [Lingkungan Desktop](#desktop-environments)
+- [Manajemen Tampilan](#display-manager)
 	- [Console](#console)
-	- [Graphic](#graphic)
-- [Window Managers](#window-managers)
-	- [Compositors](#compositors)
-	- [Stacking window managers](#stacking-window-managers)
-	- [Tiling window managers](#tiling-window-managers)
-	- [Dynamic window managers](#dynamic-window-managers)
+	- [Grafis](#graphic)
+- [Manajemen Jendela Panel](#window-managers)
+	- [Penyusun](#compositors)
+	- [Penyusun Manajemen Jendela Panel](#stacking-window-managers)
+	- [Penyelarasan Manajemen Jendela Panel](#tiling-window-managers)
+	- [Pendinamis Manajemen Jendela Panel](#dynamic-window-managers)
 
 ***********
 
-- [Setup](#setup)
+- [Persiapan](#setup)
  	- [ArchLinux](#arch-linux)
  	- [CentOS](#centos)
  	- [openSUSE](#opensuse)
 	- [Ubuntu](#ubuntu)
-- [Discussion Forums](#discussion-forums)
-    - [ArchLinux Forums](#arch-linux-forums)
-    - [CentOS Forums](#centos-forums)
-    - [Ubuntu Forums](#ubuntu-forums)
-    - [openSUSE Forums](#opensuse-forums)
-    - [IRC channels](#irc-channels)
-    - [Linux News, Apps, and more ....](#linux-news-apps-and-more-)
+- [Forum Diskusi](#discussion-forums)
+    - [Forum ArchLinux](#arch-linux-forums)
+    - [Forum CentOS](#centos-forums)
+    - [Forum Ubuntu](#ubuntu-forums)
+    - [Forum openSUSE](#opensuse-forums)
+    - [Saluran IRC](#irc-channels)
+    - [Berita Linux, Aplikasi, dan lainnya ....](#linux-news-apps-and-more-)
     - [Reddit](#reddit)
-- [Learn Linux](#learn-linux)
-- [Linux Hacking/Development](#linux-hackingdevelopment)
-- [Contributors](#contributors)
-- [Guideline to Contribute](#guideline-to-contribute)
+- [Belajar Linux](#learn-linux)
+- [Linux Peretasan/Pengembangan](#linux-hackingdevelopment)
+- [Kontributor](#contributors)
+- [Pedoman Untuk Berkontribusi](#guideline-to-contribute)
 
 ***********
 
